@@ -1,4 +1,4 @@
-package com.altimetrik.adminservice;
+package com.ecommerce.adminservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
