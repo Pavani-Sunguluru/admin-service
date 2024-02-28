@@ -1,4 +1,4 @@
-package com.altimetrik.adminservice.service;
+package com.ecommerce.adminservice.service;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;

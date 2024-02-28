@@ -1,4 +1,4 @@
-package com.altimetrik.adminservice.service;
+package com.ecommerce.adminservice.service;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -7,10 +7,10 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.altimetrik.adminservice.entity.ProductEntity;
-import com.altimetrik.adminservice.exception.ResourceNotFoundException;
-import com.altimetrik.adminservice.model.ProductDTO;
-import com.altimetrik.adminservice.repository.ProductRepository;
+import com.ecommerce.adminservice.entity.ProductEntity;
+import com.ecommerce.adminservice.exception.ResourceNotFoundException;
+import com.ecommerce.adminservice.model.ProductDTO;
+import com.ecommerce.adminservice.repository.ProductRepository;
 
 @Service
 public class ProductServiceImpl implements ProductService {

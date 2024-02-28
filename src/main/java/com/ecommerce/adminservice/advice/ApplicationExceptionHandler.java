@@ -1,4 +1,4 @@
-package com.altimetrik.adminservice.advice;
+package com.ecommerce.adminservice.advice;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.method.annotation.HandlerMethodValidationException;
 import org.springframework.web.servlet.NoHandlerFoundException;
 
-import com.altimetrik.adminservice.exception.ResourceNotFoundException;
+import com.ecommerce.adminservice.exception.ResourceNotFoundException;
 
 @RestControllerAdvice
 public class ApplicationExceptionHandler {

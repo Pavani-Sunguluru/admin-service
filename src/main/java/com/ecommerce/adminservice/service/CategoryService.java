@@ -1,9 +1,9 @@
-package com.altimetrik.adminservice.service;
+package com.ecommerce.adminservice.service;
 
 import java.util.List;
 
-import com.altimetrik.adminservice.exception.ResourceNotFoundException;
-import com.altimetrik.adminservice.model.CategoryDTO;
+import com.ecommerce.adminservice.exception.ResourceNotFoundException;
+import com.ecommerce.adminservice.model.CategoryDTO;
 
 public interface CategoryService {
 	List<CategoryDTO> getAllCategories();

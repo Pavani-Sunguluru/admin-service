@@ -1,4 +1,4 @@
-package com.altimetrik.adminservice.model;
+package com.ecommerce.adminservice.model;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.altimetrik.adminservice;
+package com.ecommerce.adminservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

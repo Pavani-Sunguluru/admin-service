@@ -1,4 +1,4 @@
-package com.altimetrik.adminservice.controller;
+package com.ecommerce.adminservice.controller;
 
 import java.util.List;
 
@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.altimetrik.adminservice.exception.ResourceNotFoundException;
-import com.altimetrik.adminservice.model.CategoryDTO;
-import com.altimetrik.adminservice.model.ProductDTO;
-import com.altimetrik.adminservice.service.CategoryService;
-import com.altimetrik.adminservice.service.ProductService;
+import com.ecommerce.adminservice.exception.ResourceNotFoundException;
+import com.ecommerce.adminservice.model.CategoryDTO;
+import com.ecommerce.adminservice.model.ProductDTO;
+import com.ecommerce.adminservice.service.CategoryService;
+import com.ecommerce.adminservice.service.ProductService;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
